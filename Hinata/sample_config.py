@@ -14,21 +14,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    NARUTO_ID = 1415798813  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "MdNoor"
-    SUPPORT_CHAT = "MissHinata_Gbot"  # Your own group for support, do not add the @
+    API_ID = 13279715  # integer value, dont use ""
+    API_HASH = "56e198053932ecf216af72a2ddffcd78"
+    TOKEN = "7132821230:AAEuc3cf-VDDWnsODFZPYE4asmGkIyQXszo"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    NARUTO_ID = 6529892817  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "obito_shadow"
+    SUPPORT_CHAT = "obanai_ixbot" # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001236063876
+        -1002139608040
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001188058807
+        -1002139608040
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://bwxyihepqyqbwz:180888d0a1d2495e9aff62ae7b16d8dd1c7ec1f6debbd27558cb2eea49f96ced@ec2-52-4-153-146.compute-1.amazonaws.com:5432/dc9u1g5duu57fq"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False

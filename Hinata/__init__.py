@@ -133,9 +133,6 @@ if ENV:
     except ValueError:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
-else:
-    from Hinata.config import Development as Config
-
     TOKEN = Config.TOKEN
 
     try:
